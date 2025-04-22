@@ -85,8 +85,6 @@ cc main.c -L. -lft -o my_program
 ```
 
 
-
-
 🛠️ Makefile Rules
 - `make` – Compiles the library.
 - `make clean` – Deletes object files.
@@ -96,10 +94,11 @@ cc main.c -L. -lft -o my_program
 🎁 Bonus Part (Linked Lists)
 
 Implemented basic singly linked list operations:
-  ft_lstnew
-  ft_lstadd_front, ft_lstadd_back
-  ft_lstsize, ft_lstlast
-  ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap
+- `ft_lstnew`
+- `ft_lstadd_front`, `ft_lstadd_back`
+- `ft_lstsize`, `ft_lstlast`
+- `ft_lstdelone`, `ft_lstclear`, `ft_lstiter`, `ft_lstmap`
+
 ```
 typedef struct s_list
 {
