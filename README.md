@@ -87,14 +87,15 @@ Compile it with:
 cc main.c -L. -lft -o my_program
 ```
 
-
-🛠️ Makefile Rules
+---
+### 🛠️ Makefile Rules
 - `make` – Compiles the library.
 - `make clean` – Deletes object files.
 - `make fclean` – Deletes object files and libft.a.
 - `make re` – Recompiles from scratch.
 
-🎁 Bonus Part (Linked Lists)
+---
+## 🎁 Bonus Part (Linked Lists)
 
 Implemented basic singly linked list operations:
 - `ft_lstnew`
@@ -109,7 +110,8 @@ typedef struct s_list
     struct s_list *next;
 } t_list;
 ```
-🔗 Resources
+---
+### 🔗 Resources
 man pages
 42 Norms & Requirements
 C Programming Language (Kernighan & Ritchie)
