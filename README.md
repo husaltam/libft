@@ -67,6 +67,9 @@ All allocation done manually using `malloc`. Carefully handled memory leaks and 
 Clone the repo and compile:
 
 ```bash
-git clone https://github.com/your-username/libft.git
+git clone https://github.com/husaltam/libft.git
 cd libft
 make
+
+This will create a libft.a static library you can link in your C projects.
+
