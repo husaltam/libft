@@ -114,12 +114,4 @@ man pages
 42 Norms & Requirements
 C Programming Language (Kernighan & Ritchie)
 
-🚀 Future Plans
-✅ Extend this library with more utilities (e.g., string builders, custom allocators)
-✅ Use this library as the base for future 42 projects
-
-👨‍💻 Author
-[Husam Altamimi]
-github.com/husaltam
-
 ⭐ If you found this repo helpful or inspiring, feel free to give it a star!
