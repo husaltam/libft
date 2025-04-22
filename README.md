@@ -88,10 +88,10 @@ cc main.c -L. -lft -o my_program
 
 
 🛠️ Makefile Rules
-- `make`, – Compiles the library.
--`make clean` – Deletes object files.
--`make fclean` – Deletes object files and libft.a.
--`make re` – Recompiles from scratch.
+    - `make` – Compiles the library.
+    -`make clean` – Deletes object files.
+    -`make fclean` – Deletes object files and libft.a.
+    -`make re` – Recompiles from scratch.
 
 🎁 Bonus Part (Linked Lists)
 
