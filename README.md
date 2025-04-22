@@ -70,6 +70,58 @@ Clone the repo and compile:
 git clone https://github.com/husaltam/libft.git
 cd libft
 make
+```
+#include "libft.h"
 
-This will create a libft.a static library you can link in your C projects.
+int main(void)
+{
+    char str[] = "Hello World!";
+    ft_putstr_fd(str, 1);
+    return 0;
+}
+Compile it with:
+```
+cc main.c -L. -lft -o my_program
+```
 
+🗂 Project Structure
+libft/
+├── ft_*.c              # Function implementations
+├── libft.h             # Header file with prototypes
+├── Makefile            # Compilation rules
+└── libft.a             # Generated static library
+
+Makefile rules:
+  make: Compiles the library.
+  make clean: Deletes object files.
+  make fclean: Deletes object files and libft.a.
+  make re: Recompiles from scratch.
+
+🎁 Bonus Part (Linked Lists)
+
+Implemented basic singly linked list operations:
+  ft_lstnew
+  ft_lstadd_front, ft_lstadd_back
+  ft_lstsize, ft_lstlast
+  ft_lstdelone, ft_lstclear, ft_lstiter, ft_lstmap
+```
+typedef struct s_list
+{
+    void *content;
+    struct s_list *next;
+} t_list;
+```
+🔗 Resources
+man pages
+42 Norms & Requirements
+C Programming Language (Kernighan & Ritchie)
+
+🚀 Future Plans
+✅ Extend this library with more utilities (e.g., string builders, custom allocators)
+✅ Use this library as the base for future 42 projects
+
+👨‍💻 Author
+[Husam Altamimi]
+github.com/husaltam
+
+⭐ If you found this repo helpful or inspiring, feel free to give it a star!
