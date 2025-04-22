@@ -112,8 +112,8 @@ typedef struct s_list
 ```
 ---
 ### 🔗 Resources
-man pages
-42 Norms & Requirements
-C Programming Language (Kernighan & Ritchie)
+- man pages
+- 42 Norms & Requirements
+- C Programming Language (Kernighan & Ritchie)
 
 ⭐ If you found this repo helpful or inspiring, feel free to give it a star!
