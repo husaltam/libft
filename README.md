@@ -1,4 +1,4 @@
-# 💫 Libft — Your Very First C Library
+# 💫 Libft — The Very First C Library
 
 Welcome to **Libft**, a custom-built C library that reimplements essential functions from the C standard library, along with additional utility functions. This project is part of the **42 School curriculum**, and it forms the foundation for many upcoming projects.
 
