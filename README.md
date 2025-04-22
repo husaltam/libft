@@ -68,7 +68,7 @@ Clone the repo and compile:
 
 ```bash
 git clone https://github.com/husaltam/libft.git
-cd libft
+cd libft\libft
 make
 ```
 #include "libft.h"
@@ -90,6 +90,7 @@ libft/
 ├── libft.h             # Header file with prototypes
 ├── Makefile            # Compilation rules
 └── libft.a             # Generated static library
+
 
 Makefile rules:
   make: Compiles the library.
