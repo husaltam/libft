@@ -71,6 +71,7 @@ git clone https://github.com/husaltam/libft.git
 cd libft/libft
 make
 ```
+```
 #include "libft.h"
 
 int main(void)
@@ -79,6 +80,7 @@ int main(void)
     ft_putstr_fd(str, 1);
     return 0;
 }
+```
 Compile it with:
 ```
 cc main.c -L. -lft -o my_program
