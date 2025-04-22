@@ -71,6 +71,7 @@ git clone https://github.com/husaltam/libft.git
 cd libft/libft
 make
 ```
+Provide you favourite main(), example:
 ```
 #include "libft.h"
 
