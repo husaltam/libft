@@ -68,7 +68,7 @@ Clone the repo and compile:
 
 ```bash
 git clone https://github.com/husaltam/libft.git
-cd libft\libft
+cd libft/libft
 make
 ```
 #include "libft.h"
@@ -84,12 +84,7 @@ Compile it with:
 cc main.c -L. -lft -o my_program
 ```
 
-🗂 Project Structure
-libft/
-├── ft_*.c              # Function implementations
-├── libft.h             # Header file with prototypes
-├── Makefile            # Compilation rules
-└── libft.a             # Generated static library
+<pre lang="markdown"> ### 🗂 Project Structure ``` libft/ ├── ft_*.c # Function implementations ├── libft.h # Header file with prototypes ├── Makefile # Compilation rules └── libft.a # Generated static library ``` </pre>
 
 
 Makefile rules:
